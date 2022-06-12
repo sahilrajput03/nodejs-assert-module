@@ -1,6 +1,7 @@
 var assert = require('assert')
 // LEARN: The third parameter is for custom error message to be thrown in case of test failure.
 
+// Syntax: ```function(actual, expected, errMessage)```
 assert.equal(50, 50) //OK
 assert.equal(50, '50') //OK
 assert.deepEqual({a: 10}, {a: '10'})
